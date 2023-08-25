@@ -1,14 +1,13 @@
-import 'package:db_project/provider/category_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
+import '../provider/category_controller.dart';
 import '../utils/category images.dart';
 
-class Categories extends StatelessWidget {
-  Categories({Key? key}) : super(key: key);
+class TransactionPage extends StatelessWidget {
+  TransactionPage({Key? key}) : super(key: key);
   CategoryController categoryController = Get.put(CategoryController());
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -53,7 +52,7 @@ class Categories extends StatelessWidget {
                             SizedBox(
                               height: 20,
                             ),
-                            Text("${allCategoryImages[index]["name"]}"),
+                            Text("${allCategoryImages[index]["label"]}"),
                             TextField(
                               decoration: InputDecoration(
                                 label: Text("Category Name"),

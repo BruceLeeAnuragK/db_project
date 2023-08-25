@@ -49,14 +49,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
-  database:
-    dependency: "direct main"
-    description:
-      name: database
-      sha256: "90b2abb5f585c8435efc0b6f38a9496b80619fb21231b07d15a2d69a84759d45"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.0"
   fake_async:
     dependency: transitive
     description:
@@ -148,7 +140,7 @@ packages:
     source: hosted
     version: "1.9.1"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
