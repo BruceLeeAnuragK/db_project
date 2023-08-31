@@ -37,6 +37,7 @@ dependencies:
   path:
 
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -60,8 +61,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-    -assets/image/
+  assets:
+    - assets/image/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

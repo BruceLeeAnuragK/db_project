@@ -2,15 +2,20 @@ import 'dart:typed_data';
 
 class Category {
   int id;
-  String remarks;
+  String remark;
   Uint8List image;
 
-  Category(this.id, this.remarks, this.image);
+  Category(
+    this.id,
+    this.remark,
+    this.image,
+  );
+
   factory Category.fromMap({required Map data}) {
     return Category(
-      data["id"],
-      data["remarks"],
-      data["image"],
+      data['id'],
+      data['remark'],
+      data['image'],
     );
   }
 }

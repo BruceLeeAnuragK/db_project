@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import '../provider/category_controller.dart';
-import '../utils/category images.dart';
+import '../../provider/category_controller.dart';
+import '../../utils/category images.dart';
 
-class TransactionPage extends StatelessWidget {
-  TransactionPage({Key? key}) : super(key: key);
+class Balance extends StatelessWidget {
+  Balance({Key? key}) : super(key: key);
   CategoryController categoryController = Get.put(CategoryController());
   @override
   Widget build(BuildContext context) {

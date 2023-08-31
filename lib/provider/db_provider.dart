@@ -9,7 +9,7 @@ class MypageController extends GetxController {
   }
 
   void onChanged({required int index}) {
-    currentIndex = index.obs;
+    currentIndex(index);
     pageController.animateToPage(
       index,
       duration: const Duration(milliseconds: 600),
